@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombackground"
+    >
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Covid-19 World"
+        android:fontFamily="sans-serif-condensed-light"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@android:color/white"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/toplamvaka"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Ülke Adı"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/toplamolum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Vaka Sayısı"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/kurtulanlar"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="140dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Toplam Ölüm"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/yenivaka"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="180dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Toplam İyileşen"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/customtextview"
+        android:text="Yeni Ölüm"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/customtextview"
+        android:text="Yeni Vakalar"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum4"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/customtextview"
+        android:text="Aktif Vaka"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum5"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/customtextview"
+        android:text="1 Milyon Kişi başına vaka"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum6"
+        android:layout_width="270dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/customtextview"
+        android:text="1 Milyon Kişi başına ölüm"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum7"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/customtextview"
+        android:text="Toplam Test"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum8"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/customtextview"
+        android:text="1 Milyon kişi başına test"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum9"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/customtextview"
+        android:text="Kritik Durumlar"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+
+
+    <!-- REQUEST DONE-->
+
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="60dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/cases"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="100dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/deaths"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="140dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/totalrecovered"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="180dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/new_deaths"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="220dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/new_cases"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="260dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="#000"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/serious_critical"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="300dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="#000"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/active_cases"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="340dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="#000"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/total_cases_per_1m_population"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="380dp"
+        android:height="30dp"
+        android:background="@drawable/customtextview"
+        android:text="batuhan"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/deaths_per_1m_population"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="420dp"
+        android:height="30dp"
+        android:background="@drawable/customtextview"
+        android:text="batuhan"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/total_tests"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="460dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="240dp"
+        android:textColor="#000"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/tests_per_1m_population"
+        android:layout_width="100dp"
+        android:text="batuhan"
+        android:layout_marginTop="500dp"
+        android:height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="290dp"
+        android:textColor="#000"
+        android:background="@drawable/customtextview"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+</RelativeLayout>

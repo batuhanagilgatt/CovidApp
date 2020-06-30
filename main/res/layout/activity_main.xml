@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombackground"
+    tools:context="com.example.CoronaApplication.MainActivity">
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Covid-19 World"
+        android:fontFamily="sans-serif-condensed-light"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@android:color/white"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/toplamvaka"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Toplam Vaka Sayısı"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/toplamolum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Toplam Ölüm Sayısı"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/kurtulanlar"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="185dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Toplam Kurtulan Sayısı"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/yenivaka"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="255dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Yeni Vaka"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/yeniolum"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        android:textAlignment="center"
+        android:background="@drawable/customtextview"
+        android:text="Yeni Ölüm"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_below="@+id/toplamolum"
+        android:id="@+id/tvTotalDeath"
+        android:layout_width="match_parent"
+        android:text="4"
+        android:textSize="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#ffff"
+        android:layout_height="match_parent">
+    </TextView>
+
+
+    <TextView
+        android:layout_below="@+id/kurtulanlar"
+        android:id="@+id/tvTotalRecover"
+        android:layout_width="match_parent"
+        android:text="4"
+        android:textSize="20dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#ffff"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/tvDate"
+
+        android:layout_width="wrap_content"
+        android:text="4"
+        android:textSize="25dp"
+        android:layout_marginLeft="70dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="450dp"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tvNewDeath"
+        android:layout_below="@id/yeniolum"
+        android:layout_width="wrap_content"
+        android:text="4"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+
+        android:id="@+id/tvNewCases"
+        android:layout_below="@id/yenivaka"
+        android:layout_width="wrap_content"
+        android:text="4"
+        android:textSize="20dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tvTotalCase"
+        android:layout_width="wrap_content"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/toplamvaka"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/etkilenenUlke"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/customedittext"
+        android:text="Etkilenen Ülkeler"
+        android:textAllCaps="false"
+        android:textColor="#1B0101"
+        android:textSize="23dp">
+
+
+    </Button>
+
+
+</RelativeLayout>
