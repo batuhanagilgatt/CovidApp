@@ -1,18 +1,19 @@
 # CovidApp
-Covid-19 virüsü ile ilgili olan ülkelerde, kaç vaka var?, kaç kişi vefat etti?, kaç kişi hastalığı atlattı şeklinde her ülkedeki günlük bilgileri gösteren bir uygulama.
 
-Rapid API data verisinden request atarak yapılmış android uygulamadır.
+## Tasarım temsilidir. Çalışma mantığının önizlenebilmesi için eklenmiştir.
 
+## Mobil Corona Virüs Uygulaması
 
+* Rapid API data verisinden request atarak yapılmış android uygulamadır.
 
-Bilgilendirme Ekranı ![Bilgilendirme Ekranı](https://user-images.githubusercontent.com/67648916/189306604-933c39e8-7e2b-43f1-8754-cc8a0f75eeeb.jpg)
+### Bilgilendirme Ekranı
+![foto1](https://user-images.githubusercontent.com/46399299/80190228-a0035280-861c-11ea-8869-dc357b094fb5.jpg)
 
+### Dünya Geneli Bilgi Ekranı
+![foto2](https://user-images.githubusercontent.com/46399299/80190272-b14c5f00-861c-11ea-81bf-844732fcf2c0.jpg)
 
-Dünya Geneli Bilgi Ekranı ![Dünya geneli bilgi ekranı](https://user-images.githubusercontent.com/67648916/189306685-bc40363f-aaae-43a0-8c71-5fcd8f9c9552.jpg)
+### Etkilenen Ülkeler
+![foto3](https://user-images.githubusercontent.com/46399299/80190370-e2c52a80-861c-11ea-81d4-6f0403212183.jpg)
 
-
-Etkilenen Ülkeler ![Etkilenen ülkeler](https://user-images.githubusercontent.com/67648916/189306730-23c79a9e-e334-40b1-8638-a92ee770a607.jpg)
-
-
-Etkilenen Ülke Günlük ve Genel Bilgileri ![Etkilenen Ülke Günlük ve Genel Bilgileri](https://user-images.githubusercontent.com/67648916/189306772-f7310418-0ffd-4fb3-bc7c-7c5fba6c169f.jpg)
-
+### Etkilenen Ülke Günlük ve Genel Bilgileri
+![foto4](https://user-images.githubusercontent.com/46399299/80190431-f7a1be00-861c-11ea-9346-a448d73f52de.jpg)
